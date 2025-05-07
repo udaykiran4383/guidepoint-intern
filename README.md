@@ -1,35 +1,50 @@
 # 🎬 Movie Explorer App
 
-A responsive Movie Explorer application built using ReactJS. This project allows users to search, explore, and favorite movies.
+A responsive and user-friendly Movie Explorer application built using **ReactJS**. This project allows users to search, explore, and favorite movies with smooth navigation and an appealing UI.
 
 ## 🚀 Features
 
-- **Homepage**: Displays a grid of movies with Poster, Title, Year, and a "Favorite" button.
-- **Search**: Real-time search to filter movies by title.
+- **Homepage**: Displays a responsive grid of movies with Poster, Title, Year, and a ⭐ "Favorite" button.
+- **Search**: Real-time filtering of movies based on the title input.
 - **Favorites Page**: View and manage your list of favorite movies.
-- **Movie Details Page** _(Bonus)_: View detailed movie information (Genre, Plot, Ratings, etc.).
-- **Persistent Favorites**: Favorite movies are saved using `localStorage`.
-- **Footer**: Includes a footer with contact information and social media links (LinkedIn, GitHub).
+- **Movie Details Page (Bonus)**: Access detailed movie information including Genre, Plot, Ratings, and more.
+- **Persistent Favorites**: All favorite movies are stored using `localStorage` to maintain state across sessions.
+- **Footer**: Contains contact information and links to social media profiles like LinkedIn and GitHub.
 
 ## 🛠 Tech Stack
 
-- ReactJS (with Hooks & Functional Components)
-- React Router for page navigation
-- CSS (Mobile-first responsive design)
-- JavaScript (ES6+)
-- LocalStorage API for persistent favorites
+- **ReactJS** (with Functional Components and Hooks)
+- **React Router** for navigation between pages
+- **CSS** (Mobile-first responsive design)
+- **JavaScript** (ES6+ features)
+- **LocalStorage API** for persistent state management
 
 ## 💡 Assumptions
 
-- Used OMDb API for real movie data 
-- Only essential movie info is shown on the homepage.
-- Favorites are stored locally using browser `localStorage`.
+- Used the [OMDb API](https://www.omdbapi.com/) for fetching movie data.
+- Only essential movie details are shown on the homepage for better performance.
+- Favorite movies are stored locally in the browser using `localStorage`.
 
 ## 🔧 How to Run Locally
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/udaykiran4383/movie-explorer.git
-   cd movie-explorer
+```bash
+# Clone the repository
+git clone https://github.com/udaykiran4383/movie-explorer.git
+
+# Navigate into the project directory
+cd movie-explorer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+Open http://localhost:3000 to view it in your browser.
+
+🌐 Live Demo
+Deployed with Vercel:
+👉 https://guidepoint-intern-uday.vercel.app/
+
+👨‍💻 Built with 💙 by Uday Kiran
 
 
