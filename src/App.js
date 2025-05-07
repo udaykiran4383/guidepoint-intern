@@ -4,6 +4,7 @@ import Favorites from "./pages/Favorites"
 import MovieDetails from "./pages/ MovieDetails.js"
 import Navbar from "./components/Navbar"
 import { FavoritesProvider } from "./context/FavoritesContext"
+import Footer from "./components/Footer.js"
 import "./styles/global.css"
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
               <Route path="/movie/:id" element={<MovieDetails />} />
             </Routes>
           </main>
+          <Footer /> 
         </div>
       </Router>
     </FavoritesProvider>
