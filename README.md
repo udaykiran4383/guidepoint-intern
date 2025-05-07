@@ -25,6 +25,19 @@ A responsive and user-friendly Movie Explorer application built using **ReactJS*
 - Only essential movie details are shown on the homepage for better performance.
 - Favorite movies are stored locally in the browser using `localStorage`.
 
+  ## 🌐 Live Demo
+
+Deployed with **Vercel**:  
+👉 [https://guidepoint-intern-uday.vercel.app/](https://guidepoint-intern-uday.vercel.app/)
+
+---
+
+👨‍💻 Built with 💙 by [Uday Kiran](https://github.com/udaykiran4383)
+
+
+
+
+
 ## 🔧 How to Run Locally
 
 ```bash
@@ -41,10 +54,6 @@ npm install
 npm start
 Open http://localhost:3000 to view it in your browser.
 
-🌐 Live Demo
-Deployed with Vercel:
-👉 https://guidepoint-intern-uday.vercel.app/
 
-👨‍💻 Built with 💙 by Uday Kiran
 
 
